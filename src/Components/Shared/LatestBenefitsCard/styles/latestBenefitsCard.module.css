@@ -1,0 +1,65 @@
+.card {
+  width: 33.3%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .card__img-wrapper {
+  width: 100%;
+  height: 245px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 20px;
+}
+.card .card__img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card .card__desc {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 15px;
+}
+.card .card__desc p {
+  font-size: 14px;
+  color: rgb(112, 124, 137);
+  margin-bottom: 10px;
+}
+.card .card__desc h4 {
+  font-size: 20px;
+  color: rgb(33, 40, 50);
+  margin-bottom: 20px;
+}
+.card .card__desc button {
+  background: rgb(42, 138, 196);
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+}
+.card .card__desc button:hover {
+  background-color: rgb(109, 186, 234);
+  transition: all 300ms ease-in-out;
+}
+
+@media all and (max-width: 500px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+  .card .card__desc {
+    text-align: center;
+  }
+  .card .card__desc p {
+    font-size: 12px;
+  }
+  .card .card__desc h4 {
+    font-size: 16px;
+  }
+  .card .card__desc button {
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=latestBenefitsCard.module.css.map */

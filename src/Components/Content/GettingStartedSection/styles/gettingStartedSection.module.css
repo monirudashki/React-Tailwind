@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.section-container {
+  width: 100%;
+  height: 80vh;
+  background: #fe8232;
+  color: #ffffff;
+}
+.section-container h2 {
+  font-size: 36px;
+  font-family: "Roboto Condensed";
+  padding-top: 90px;
+}
+.section-container .article-wrapper {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 70px auto;
+}
+
+@media all and (max-width: 500px) {
+  .section-container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .section-container h2 {
+    font-size: 36px;
+    padding-top: 35px;
+    margin-bottom: 20px;
+  }
+  .section-container .article-wrapper {
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .section-container .article-wrapper .article {
+    width: 100%;
+    height: auto;
+  }
+  .section-container .article-wrapper .article h3 {
+    font-size: 36px;
+    margin-bottom: 100px;
+  }
+  .section-container .article-wrapper .article p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=gettingStartedSection.module.css.map */

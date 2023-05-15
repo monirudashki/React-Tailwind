@@ -1,0 +1,69 @@
+@use "../../../../Styles/mixins" as *;
+@use "../../../../Styles/variables" as *;
+
+.card {
+  @include widthAndHeight(33.3%, 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  .card__img-wrapper {
+    @include widthAndHeight(100%, 245px);
+    @include flexContainer(0);
+    margin-bottom: 20px;
+    img {
+      @include widthAndHeight(100%, 100%);
+      object-fit: cover;
+    }
+  }
+
+  .card__desc {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 15px;
+
+    p {
+      font-size: 14px;
+      color: rgba(112, 124, 137, 1);
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 20px;
+      color: rgba(33, 40, 50, 1);
+      margin-bottom: 20px;
+    }
+    button {
+      background: $mainBlueColor;
+      padding: 10px 16px;
+      cursor: pointer;
+      color: $mainWhiteColor;
+      border: none;
+
+      &:hover {
+        background-color: $hoverBlueColor;
+        transition: all 300ms ease-in-out;
+      }
+    }
+  }
+}
+
+@media all and (max-width: $smallMedia) {
+  .card {
+    @include widthAndHeight(100%, auto);
+
+    .card__desc {
+      text-align: center;
+
+      p {
+        font-size: 12px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      button {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

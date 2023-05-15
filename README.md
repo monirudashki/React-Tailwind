@@ -1,9 +1,6 @@
-Task for job interview
-
 - React
 - React functional components
-- SASS
-- Fontawesome Icons
+- Tailwind CSS
 
 All landing page layout with some functionality
 

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.navResponsiveSection {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .navResponsiveSection {
+    display: block;
+    width: 100%;
+    height: 742px;
+    padding: 10px;
+  }
+  .navResponsiveSection .community-wrapper {
+    width: 100%;
+    height: 80%;
+    background: #fe8232;
+  }
+  .navResponsiveSection .community-wrapper .community-wrapper__header {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+    padding: 15px 12px 25px 12px;
+  }
+  .navResponsiveSection .community-wrapper .community-wrapper__header h4 {
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    color: #ffffff;
+  }
+  .navResponsiveSection .community-wrapper .community-wrapper__header button {
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    background: #ffffff;
+    border: none;
+  }
+  .navResponsiveSection .community-wrapper .community-wrapper__header button div {
+    width: 15px;
+    height: 2px;
+    background: black;
+  }
+  .navResponsiveSection p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    padding: 0 12px 25px 12px;
+    color: #ffffff;
+    text-align: left;
+  }
+  .navResponsiveSection .community-wrapper__img {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0 12px 25px 12px;
+  }
+  .navResponsiveSection .community-wrapper__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .navResponsiveSection .link,
+  .navResponsiveSection .link2 {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+    padding: 15px 12px 15px 12px;
+  }
+  .navResponsiveSection .link h4,
+  .navResponsiveSection .link2 h4 {
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    color: black;
+  }
+  .navResponsiveSection .link button,
+  .navResponsiveSection .link2 button {
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .navResponsiveSection .link2 {
+    height: 50px;
+    padding-bottom: 0;
+    border-bottom: 2px solid rgb(201, 201, 201);
+  }
+}/*# sourceMappingURL=navSectionResponsive.module.css.map */

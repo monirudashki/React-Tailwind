@@ -1,0 +1,105 @@
+.everythingLocal-container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 80px 150px;
+}
+.everythingLocal-container .content-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  background: #fe8232;
+  position: relative;
+}
+.everythingLocal-container .content-wrapper .img-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.everythingLocal-container .content-wrapper .img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.everythingLocal-container .content-wrapper .pointer {
+  width: 50px;
+  height: 50px;
+  background: #fe8232;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  rotate: 45deg;
+}
+.everythingLocal-container .content-wrapper .description {
+  width: 50%;
+  height: 100%;
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  position: relative;
+}
+.everythingLocal-container .content-wrapper .description div {
+  width: 70%;
+  height: 70%;
+  margin-left: 60px;
+  margin-top: 70px;
+}
+.everythingLocal-container .content-wrapper .description div h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.everythingLocal-container .content-wrapper .description div p {
+  text-align: left;
+  font-size: 20px;
+  padding-right: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media all and (max-width: 500px) {
+  .everythingLocal-container {
+    width: 100%;
+    height: 85vh;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .everythingLocal-container .content-wrapper {
+    flex-direction: column-reverse;
+  }
+  .everythingLocal-container .content-wrapper .img-wrapper {
+    width: 100%;
+    height: 40%;
+  }
+  .everythingLocal-container .content-wrapper .pointer {
+    display: none;
+  }
+  .everythingLocal-container .content-wrapper .description {
+    width: 100%;
+    height: 60%;
+  }
+  .everythingLocal-container .content-wrapper .description div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .everythingLocal-container .content-wrapper .description div h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .everythingLocal-container .content-wrapper .description div p {
+    text-align: center;
+    font-size: 16px;
+    padding-inline: 10px;
+    color: rgb(244, 247, 250);
+  }
+}/*# sourceMappingURL=everythingLocal.module.css.map */

@@ -1,0 +1,91 @@
+@use "../../../../Styles/mixins" as *;
+@use "../../../../Styles/variables" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.navResponsiveSection {
+  display: none;
+}
+
+@media all and (max-width: $smallMedia) {
+  .navResponsiveSection {
+    display: block;
+    @include widthAndHeight(100%, 742px);
+    padding: 10px;
+
+    .community-wrapper {
+      @include widthAndHeight(100%, 80%);
+      background: $mainOrangeColor;
+
+      .community-wrapper__header {
+        @include widthAndHeight(100%, 76px);
+        @include flexContainer(0);
+        justify-content: space-between;
+        padding: 15px 12px 25px 12px;
+
+        h4 {
+          font-size: 24px;
+          font-family: "Roboto Condensed";
+          color: $mainWhiteColor;
+        }
+
+        button {
+          @include widthAndHeight(10%, 80%);
+          @include flexContainer(0);
+          background: $mainWhiteColor;
+          border: none;
+          div {
+            @include widthAndHeight(15px, 2px);
+            background: black;
+          }
+        }
+      }
+    }
+
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px;
+      padding: 0 12px 25px 12px;
+      color: $mainWhiteColor;
+      text-align: left;
+    }
+
+    .community-wrapper__img {
+      @include widthAndHeight(100%, 55%);
+      @include flexContainer(0);
+      padding: 0 12px 25px 12px;
+
+      img {
+        @include widthAndHeight(100%, 100%);
+      }
+    }
+
+    .link,
+    .link2 {
+      @include widthAndHeight(100%, 76px);
+      @include flexContainer(0);
+      justify-content: space-between;
+      padding: 15px 12px 15px 12px;
+
+      h4 {
+        font-size: 24px;
+        font-family: "Roboto Condensed";
+        color: black;
+      }
+
+      button {
+        background: transparent;
+        border: none;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+
+    .link2 {
+      height: 50px;
+      padding-bottom: 0;
+      border-bottom: 2px solid rgba(201, 201, 201, 1);
+    }
+  }
+}
