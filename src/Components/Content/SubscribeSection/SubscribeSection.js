@@ -1,7 +1,5 @@
 import React from 'react';
 
-import styles from './styles/subscribeSection.module.css';
-
 import subscribeImg from './images/smsSubscribe.png'
 
 function SubscribeSection({
@@ -15,16 +13,25 @@ function SubscribeSection({
     }
 
     return (
-        <section className={styles['subscribeSection-container']}>
-            <div className={styles['content']}>
-                <div className={styles['content__img-wrapper']}>
-                    <img src={subscribeImg} alt="subscribe" />
+        <section className='w-full h-[80%] pb-10 xl:h-[70vh]'>
+            <div className='w-full h-full flex justify-center items-center flex-col gap-10
+            p-[10px] xl:gap-0 xl:flex-row xl:py-[80px] xl:px-[166px]'>
+                <div className='w-full xl:w-1/2 h-full flex justify-center items-center'>
+                    <img className='w-full h-full' src={subscribeImg} alt="subscribe" />
                 </div>
 
-                <div className={styles['content__subscribe']}>
-                    <h2>SMS SUBSCRIBE</h2>
-                    <p>The quick brown fox...</p>
-                    <button type='button' onClick={onClickPopUpHandle}>POP UP</button>
+                <div className='w-full xl:w-1/2 h-full flex justify-center items-center gap-3 xl:gap-10
+                flex-col text-center'>
+                    <h2 className='font-roboto text-[36px] font-bold'>SMS SUBSCRIBE</h2>
+                    <p className='text-[18px] font-poppins'>The quick brown fox...</p>
+                    <button
+                        className='cursor-pointer font-roboto py-3 px-[100px] border-none
+                    text-mainWhiteColor bg-mainBlueColor
+                    hover:bg-hoverBlueColor hover:transition-all'
+                        type='button'
+                        onClick={onClickPopUpHandle}>
+                        POP UP
+                    </button>
                 </div>
             </div>
         </section>

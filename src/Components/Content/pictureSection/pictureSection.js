@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
 
-import styles from './styles/pictureSection.module.css';
-
 function PictureSection() {
     return (
-        <section className={styles['pictureSection-container']}>
-            <div className={styles['img-wrapper']}></div>
+        <section
+            className='w-full h-[240px] flex justify-center items-center 
+        py-5 px-[10px] xl:h-[70vh] xl:py-[80px] xl:px-[150px]'>
+            <div className='w-full h-full bg-pictureSectionImgResp bg-no-repeat bg-cover xl:bg-pictureSectionImg'></div>
         </section>
     )
 }

@@ -11,7 +11,7 @@ function LatestBenefitsCard({
 
             <div className='font-poppins xl:text-left text-center ml-4'>
                 <p className='text-[13px] text-[#707c89] mb-3'>Category: name</p>
-                <h4 className='xl:text-xl text-[#212832] mb-5'>The quick brown fox...</h4>
+                <h4 className='font-bold xl:text-xl text-[#212832] mb-5'>The quick brown fox...</h4>
 
                 <button
                     className='mb-4 bg-mainBlueColor py-3 px-4 cursor-pointer 

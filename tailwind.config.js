@@ -5,7 +5,8 @@ module.exports = {
     fontFamily: {
       'sans': 'Helvetica, Arial, sans-serif',
       'roboto': "Roboto Condensed",
-      'poppins': "Poppins, sans-serif"
+      'poppins': "Poppins, sans-serif",
+      'monserat': "Montserrat, sans-serif"
     },
     screens: {
       sm: '480px',
@@ -15,7 +16,9 @@ module.exports = {
     },
     backgroundImage: {
       'headerImg': "url('/public/img/headerDesctopImg.jpg')",
-      'headerRespImg': "url('/public/img/headerResponsiveImg.jpg')"
+      'headerRespImg': "url('/public/img/headerResponsiveImg.jpg')",
+      'pictureSectionImg': "url('/public/img/happyImage.png')",
+      'pictureSectionImgResp': "url('/public/img/happyImgResponsive.jpg')",
     },
     extend: {
       colors: {
@@ -26,6 +29,9 @@ module.exports = {
         hoverBlueColor: 'rgb(109, 186, 234)',
         titleBgColor: 'rgba(255, 255, 255, 0.8)'
       },
+      height: {
+        sectionHight: 'calc(100% - 80px)'
+      }
     },
   },
   plugins: [],
