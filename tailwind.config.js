@@ -19,6 +19,8 @@ module.exports = {
       'headerRespImg': "url('/public/img/headerResponsiveImg.jpg')",
       'pictureSectionImg': "url('/public/img/happyImage.png')",
       'pictureSectionImgResp': "url('/public/img/happyImgResponsive.jpg')",
+      'footerDesktopImg': "url('/public/img/footerImage.jpg')",
+      'footerDesktopRespImg': "url('/public/img/foot-resp.jpg')",
     },
     extend: {
       colors: {
