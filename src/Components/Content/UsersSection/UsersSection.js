@@ -23,13 +23,13 @@ function UsersSection() {
             <div
                 className='w-full h-full p-[10px] xl:w-[70%] xl:h-[400px] xl:my-20 flex justify-center items-center
             gap-12 flex-col xl:flex-row'>
-                <article className='w-full h-full flex-col xl:flex-row xl:w-1/2 flex justify-center items-center
+                <article className='w-full h-[90%] flex-col xl:flex-row xl:w-1/2 flex justify-center items-center
                 bg-mainOrangeColor relative'>
                     <div className='w-[60%] pt-10 xl:pt-0 xl:w-[45%] h-full flex justify-center items-center'>
                         <img className='w-full h-full' src={leftUserImg} alt="user" />
                     </div>
 
-                    <div className='hidden xl:block w-[40px] h-[40px] bg-mainOrangeColor absolute
+                    <div className='hidden xl:block w-[30px] h-[30px] bg-mainOrangeColor absolute
                     left-[38%] top-[40%] translate-x-[40%] translate-y-[38%] rotate-[45deg]'></div>
 
                     <div className='w-full pt-5 xl:pt-0 flex justify-center items-center gap-3
@@ -53,13 +53,13 @@ function UsersSection() {
                     </div>
                 </article>
 
-                <article className='hidden w-full h-full flex-col xl:w-1/2 xl:flex-row xl:flex justify-center items-center
+                <article className='hidden w-full h-[90%] flex-col xl:w-1/2 xl:flex-row xl:flex justify-center items-center
                 bg-mainOrangeColor relative'>
                     <div className='w-[60%] pt-10 xl:pt-0 xl:w-[45%] h-full flex justify-center items-center'>
                         <img className='w-full h-full' src={rightUserImg} alt="user" />
                     </div>
 
-                    <div className='hidden xl:block w-[40px] h-[40px] bg-mainOrangeColor absolute
+                    <div className='hidden xl:block w-[30px] h-[30px] bg-mainOrangeColor absolute
                     left-[38%] top-[40%] translate-x-[40%] translate-y-[38%] rotate-[45deg]'>
                     </div>
 

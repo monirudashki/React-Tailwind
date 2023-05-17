@@ -47,7 +47,7 @@ function NavigationSection() {
                     </div>
 
                     <div className='w-[65%] h-[40%]'>
-                        <p className='font-monserat text-[32px] text-mainWhiteColor text-left pr-[400px]'>
+                        <p className='font-monserat text-[26px] text-mainWhiteColor text-left pr-[400px]'>
                             From learning about volunteering
                             in your community to information about local events,
                             Local Consumer Reach is your guide to finding out

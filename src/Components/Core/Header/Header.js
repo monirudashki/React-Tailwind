@@ -50,7 +50,9 @@ function Header({
             <div className='w-[90%] h-[20%] flex justify-center items-center gap-[5px] flex-col bg-[#ffffffcc] absolute
             left-[50%] bottom-[2%] translate-x-[-50%] translate-y-[-2%]
             xl:w-auto xl:gap-0 xl:p-5 xl:bottom-[10%] xl:translate-y-[-10%]'>
-                <h1 className='font-roboto font-bold text-2xl text-[#222831] xl:text-5xl'>Find Expert Saving Tips & Resources With Us</h1>
+                <h1 className='font-roboto font-bold text-3xl text-[#222831] xl:text-5xl'>
+                    Find Expert Saving Tips & Resources With Us
+                </h1>
                 <p className='hidden xl:block xl:m-2 xl:font-sans xl:text-[#565656]'>The quick brown fox...</p>
 
                 <div className='w-[30px] h-[15px] flex justify-center items-center gap-[3px] xl:hidden'>

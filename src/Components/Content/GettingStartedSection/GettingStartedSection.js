@@ -6,7 +6,7 @@ import GettingStartedArticle from '../../Shared/GettingStartedArticle/GettingSta
 function GettingStartedSection() {
     return (
         <section className='w-full h-auto p-[10px] xl:p-0 xl:h-[80vh] bg-mainOrangeColor text-mainWhiteColor'>
-            <h2 className='text-4xl font-bold font-roboto pt-9 xl:pt-[90px] mb-5'>
+            <h2 className='text-4xl font-bold font-roboto pt-9 xl:pt-[90px]'>
                 Getting Started with Local Reach
             </h2>
 

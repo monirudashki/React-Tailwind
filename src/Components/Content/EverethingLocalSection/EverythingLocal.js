@@ -24,7 +24,7 @@ function EverythingLocal() {
                         </h2>
                         <p
                             className='text-center px-3 text-gray-100 font-poppins 
-                            xl:text-xl xl:text-left xl:px-0 xl:pr-[100px]'
+                             xl:text-left xl:px-0 xl:pr-[100px]'
                         >
                             From learning about volunteering in your community to information about local events,
                             Local Consumer Reach is your guide to finding out what’s happening where you live and how you can help out.
