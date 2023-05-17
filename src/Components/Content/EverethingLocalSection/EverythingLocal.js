@@ -19,7 +19,7 @@ function EverythingLocal() {
                     className='w-full h-[60%] text-mainWhiteColor relative font-roboto xl:w-[50%] xl:h-full'>
                     <div className='w-full h-full xl:w-[70%] xl:h-[70%] xl:ml-[60px] xl:mt-[70px]'>
                         <h2
-                            className='text-3xl my-10 text-center xl:text-5xl xl:text-left xl:m-0 xl:mb-12'>
+                            className='text-3xl my-10 text-center xl:text-4xl xl:text-left xl:m-0 xl:mb-12'>
                             Everything Local - Right Here!
                         </h2>
                         <p

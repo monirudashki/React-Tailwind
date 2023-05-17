@@ -1,118 +1,9 @@
-.hamburgerNav-section {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-  width: 100vw;
-  height: 100vh;
-  background: gray;
-  overflow: auto;
-  transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-}
-
-.navbar {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
-  background: rgba(53, 53, 53, 0.8);
-  margin-bottom: 200px;
-}
-.navbar div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
-  width: 100%;
-  margin-inline: 150px;
-  justify-content: space-between;
-}
-.navbar div p {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 28px;
-  color: rgb(249, 249, 249);
-}
-.navbar div button {
-  background: transparent;
-  font-size: 24px;
-  color: rgb(255, 255, 255);
-  box-shadow: none;
-  border: none;
-  cursor: pointer;
-}
-
-.content {
-  width: 40%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-direction: column;
-  margin-inline: auto;
-}
-.content h2 {
-  color: #ffffff;
-  font-size: 24px;
-}
-.content nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-direction: column;
-  font-family: "Poppins", sans-serif;
-}
-.content nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.content nav ul li {
-  padding-bottom: 10px;
-}
-.content nav ul li a {
-  color: rgba(249, 249, 249, 0.7);
-  text-decoration: none;
-  font-size: 20px;
-}
-.content nav ul li a:hover {
-  text-decoration: underline;
-}
-.content div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  font-family: "Roboto Condensed";
-  margin-top: 100px;
-}
-.content div button {
-  border: none;
-  padding: 8px 16px;
-  color: #ffffff;
-}
-.content div :first-child {
-  background: #fe8232;
-}
-.content div :last-child {
-  background: rgb(42, 138, 196);
-}
-
 .slide-in {
   animation: slide-in 0.5s forwards;
-  -webkit-animation: slide-in 0.5s forwards;
 }
 
 .slide-out {
   animation: slide-out 0.5s forwards;
-  -webkit-animation: slide-out 0.5s forwards;
 }
 
 @keyframes slide-in {
@@ -126,14 +17,5 @@
   }
   100% {
     transform: translateX(-100%);
-  }
-}
-@media all and (max-width: 500px) {
-  .hamburgerNav-section {
-    width: calc(100% + 10px);
-  }
-  .navbar div {
-    margin-left: 30px;
-    margin-right: 20px;
   }
 }/*# sourceMappingURL=hamburgerNav.module.css.map */

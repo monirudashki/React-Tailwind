@@ -33,7 +33,22 @@ module.exports = {
       },
       height: {
         sectionHight: 'calc(100% - 80px)'
-      }
+      },
+      animation: {
+        slideIn: 'slide-in 1s forwards',
+        slideOut: 'slide-out 1s forwards'
+      },
+      keyframes: {
+        slideIn: {
+          '100%': {
+            transform: 'translateX(0%)'
+          }
+        },
+        slideOut: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' }
+        }
+      },
     },
   },
   plugins: [],

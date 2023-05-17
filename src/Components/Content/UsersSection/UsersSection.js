@@ -38,8 +38,7 @@ function UsersSection() {
                             <h3 className='mt-3 xl:mt-10 font-roboto text-2xl text-center font-bold xl:text-left mb-8'>
                                 Karli O'Sullivan
                             </h3>
-                            <p
-                                className='p-5 xl:p-0 text-center xl-p-0 xl:text-left font-poppins
+                            <p className='p-5 xl:p-0 xl:pr-4 text-center xl-p-0 xl:text-left font-poppins
                             pr-10 mb-12'>
                                 I’ve been designing mobile apps and
                                 services for many years – for companies
@@ -70,7 +69,7 @@ function UsersSection() {
                                 Karli O'Sullivan
                             </h3>
                             <p
-                                className='p-5 xl:p-0 text-center xl-p-0 xl:text-left font-poppins
+                                className='p-5 xl:p-0 xl:pr-4 text-center xl-p-0 xl:text-left font-poppins
                             pr-10 mb-12'>
                                 I’ve been designing mobile apps and
                                 services for many years – for companies
